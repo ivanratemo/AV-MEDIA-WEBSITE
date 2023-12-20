@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>AV</span> MEDIA</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero"  data-after="Home">Home</a></li>
+                        <li><a href="#about" data-after="Services">Services</a></li>
+                        <li><a href="#pricing" data-after="Pricing">Pricing</a></li>
+                        <li><a href="#works" data-after="Works">Works</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of header-->
+
+
+   <!--Hero section--> 
+   <section id="hero">
+    <div class="hero container">
+        <div>
+            <h1>Capturing moments<span></span></h1>
+            <h1>framing memories<span></span></h1>
+            <h1>and<span></span></h1>
+            <h2>painting stories with light</h2> <br>
+            <h3>From Nairobi, Kenya</h3>
+            <a href="#contact" type="button" class="cta">Contact Us</a>
+        </div>
+    </div>
+   </section>
+   <!--Hero section-->
+
+   <!--About section-->
+   <section id="about">
+    <div class="about container">
+        <div class="about-top">
+            <h1 class="section-title">This is what <span>We</span> offer.</h1>
+            <p></p>
+        </div>
+        <div class="about-bottom">
+            <div class="about-item">
+                <div class="icon">
+                <img src="data:image/png;base64,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">
+                </div>
+                <h2>Portraits</h2>
+                <p>In a portrait, We looking for the silence in somebody or something.</p>
+            </div>
+            <div class="about-item">
+                <div class="icon">
+                    <img src="data:image/png;base64,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">
+                </div>
+                <h2>Videography</h2>
+                <p>We majorly deal with automotive videography</p>
+            </div>
+            <div class="about-item">
+                <div class="icon">
+                    <img src="data:image/png;base64,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">
+                </div>
+                <h2>Event Coverage</h2>
+                <p>We cover events be it weddings,birthday parties,funerals and cultural events like Ruracio</p>
+            </div>
+            <div class="about-item">
+                <div class="icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADv0lEQVR4nO2b+1MSURTH+al/lv0lrR/6yd94uZuGojUqq4DOCpmTNJiT9nDyMVksgjxEFq2EihB6mGW/3ObcyyrL+yGyG/fMfAf3eHe457PnnnNwRKejRo0aNWrUymxgwH2D09vNrN6e5hgeaVQpluFNEIuuWWMZ3qSCAK5GeruxaQAcw6fg5oU5Cfl8eU3qoStxkQmtAECgbgfRruQ4KIBmjaMZwFc8Au7pGLLeErpf2EoEe3LP7Hf+CFhVGPwFhNtC5wFwBb/B4FeV6u2XAmjWOJoBPD0CHK0BPC2CPtoF8rQN+tqcAzxCCJ1mJCS4gr05BxyE4uhvPoki/v3eA8CxIvqdTWIAv75KaNAi9haABfceDl7W/GyotwDsvtnHgX9LS/j17UasdwAYjSL6/imBA196RDIhn5KQ0dgjAJzTQRx05iiBg86lCAx+KljzyBxGD9CPzxI6y0r4Z+gimgSw+TKKA956FcHXkP5wvb4Wrbh+bTmsqBfFeuYLaw9A5og8cdcMeeLzcyF8nZYSZWvHxwLoz0kSneeSGMRdTsSSocDvxmwB7QC4P7aLNw6pbDIRn8Us4lYIftvormL96+cR7H+3WV4k/Vu1M6ejALzePBKELHI6M8jhyDQMYHWZBARdoNgfFUlXWHmiTGk46+CfdZTXhzknqSXJSLwuANgj7BX27PXm2gfgcpHAZTUKQA4Iilqx37tIukFiTxnMyUdyXO4Nlae5dThAOkg60RAAWQCibQAOR/MAhodEdJ4jqV5NcKbhjMv3yEejlmCibAZA8X6vFcBSoefX06Lnsr1By6u3/jAa1waAiJ8Urafeyq3rxQqpD8Gdy4KXOyYARkeqV/paUg0Ai1lEpxnyxGyjlYOZeEA6xM8vEjKblZ8YGxl6VA1AcAWr9vpiZT8kFFV/tdDvS4uj5gDsbETr9mzQ9jpZB69wDQURZgbwidsxPEfA/ADDD8wIkC2CK6R+ACeFdjZdY94HwZOHdZAJl9kTQmdVugF0jVp/UVINgMReHM8A9T7xwdM9isXR+9iBwv9gPICHJxijAQYAguupidpAVQPA0CVRAAzNAESPAENrAKJF0KGCLjB4043YfndHfaruAlyFNVft6xqA4b7yf5Ji+z3IYgleSPZ30sf2ecr2MdQndB7A5EgYv1HxG1vvPFasgevr8JUGP2kNdx6AQ2OiABiaAajVI5CCG6dssa6ncauCveMizdiPmwegtxtLq6xWxTK8odWvzBjlTNCi4MlD8C19ZYYaNWrUqOn+f/sHWF8f1lkaOrUAAAAASUVORK5CYII=">
+                </div>
+                <h2>Stylistic videos with effects</h2>
+                <p>We also create videos with crazy effects like speed ramping cloning effects you name it.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--eEnding of services section-->
+
+   <!--pricing section-->
+   <section id="pricing">
+    <div class="pricing container">
+        <div class="pricing-header">
+            <h1 class="pricing-title">Rate <span>Card</span></h1>
+        </div>
+        <div class="all-pricing">
+            <div class="pricing-item">
+                <div class="pricing-info">
+                    <h1>PORTRAITS</h1>
+                    <h2>200KSH Per photo</h2>
+                    <p>Unlimited Portraits <strong>2500</strong> ksh.</p>
+                    <p>Outdoor Portraits 200ksh per photo</p>
+                </div>
+            </div>
+            <div class="pricing-item">
+                <div class="pricing-info">
+                    <h1>VIDEOGRAHY</h1>
+                    <h2>Reels</h2>
+                    <p>Instagram reels not exceeding 1 minute <strong> 2000ksh</strong>per reel.</p>
+                    <p>More than one minute 500ksh per every extra 30 seconds</p>
+                </div>
+            </div>
+            <div class="pricing-item">
+                <div class="pricing-info">
+                    <h1>EVENT COVERAGE</h1>
+                    <h2>Rracios,Circumsision,Wedding</h2>
+                    <p>prices range from <strong>10,000ksh to 50,000ksh</strong> depending on the how much work is needed in each event</p>
+                </div>
+            </div>
+            <div class="pricing-item">
+                <div class="pricing-info">
+                    <h1>STYLISTIC VIDEOS</h1>
+                    <h2>After efeects</h2>
+                    <p>videos with special effects like speed ramping animating videos -a video with 3 effects<strong> 2500ksh</strong> Africa.</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+   </section>
+   <!--end of resume section-->
+
+   <!--Start of works section-->
+   <section id="works">
+    <div class="works container">
+        <div class="col-right">
+            <h1 class="section-tittle">MY <span>WORKS</span></h1>
+            <h2>Click <a href="https://www.instagram.com/ivanratemo/?next=%2F">HERE</a> to see some of our work</h2>
+        </div>
+    </div>
+   </section>
+   <!--Start of works section-->
+
+   <!--Contact section-->
+   <section id="contact">
+    <div class="contact container">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACNUlEQVRoge3ZvWsUQRjH8c+JYBSjKJgUvgVsbFIEtdLCQlGCYpVG/wCxEOwUCxFbC7FRtBCxFCwsRLBVFBENSIyKhQhRsAkSxLeYnMV4EC7Z1+R2LrBfeLq95fe9nZ15ZpaampqaNlbiFEbxHdexImqiEvTjOZptdTpmqKKsxxvzJZqYxKZ40Yrx0MISrboRL1p+jkmXaGIGe2IFzMsr2SJNPEEjUsZMtssn0aoTcWJmc0gxkQmsjZJU+jqwpuC9NuP8IrJ0jP2KPZEmfmEgRti0J/JWCFeEVThaPk550kS+YrzEPT+UzNJRLio2tB7r0ml4G6blk5jGYJyY+bgtn8iVWAHzskOYjdIkfmBDrIBFuCRd5GO8aMVYjfeSRWaxL1q6guzCb8kyX4TVfVlwTvoQe4aeaOkK0MBd6TL3hf1919Mreevbqpu6dGFsZ0B4J9JkLlsmMoP4Jl3mtmUyzA7KXizvCV1xEg0M44xIW4AWh2XLvMTWBX67E4/mXPcHV7Gu46kTGMFf6TIT2Pv/+o1C4KSGdALHRXrHRoR/NE1mFp+E3izvtmCoSokWw/iZM2TemsEd9FXoAQ5gahHBk2pSOGuu9OB8SPY6U7auVeiBMJWOLUHw9pqqUqJFr7COLKXIaKUGc2jgrOwZLW+drDb+fHbjncVJPNUlLU+PcMRUZooeE76cdRUDuCX/UdMDEduWPGzBBby2sMALHMlzo27aL/QJTWS/sD0Yx+eoiWpqamo6xj9WTLYIITwaVwAAAABJRU5ErkJggg=="></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+254720134705</h2>
+                        <h2>+254110033853</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADdklEQVRoge3aT6wdYxgG8F+r7inScoPWQtI2bJCQIBYEiUibxr+uqNbGwkqodGlpp/5VSLDQBRF7uUVjQUOiaWwk1O3tjYiqKJqUS6je9lh8MzmTY8453zcz556R9Ene3HvmO/eZ57nzfe+83zvDObQLyxrkmsaduA3X4iqswUXZ+J84jm9xCJ9hP042qKEyOtiOfVhENzEW8QG2ZVxLjguwE8cixMbGD3gKK5fKxGbMN2igP45g0zgNdPDyGA30x1vClW8Ua/HFEprI46CQMBrBeuFyL7WJPOYyDbVwOWYnaCKPeVxR1cRKk5lOw6ZZpRT9WgvE98crqSY2t0D0oNgYa6KDwy0QPCiOiLxp7myB2FGxY5SJjlAqTFroqDhqxMLfHkk0bsRoeHgYwb4mSGri0UgN7w8imBZfip/F0w0bWIZnIs/fxWmsLiPakkByJvv5Js5vwMQU3i4IjNVxXxnZ8wkEW4QdXxcf4eIaJqbxccb1u7R72K4ywr0JBHCDXob7CusqmNggbHu7+BE3ZsdjdbxXRjqXaIRQlX5dEHJTgolb8FP2t1/iysJYrI7ZMuITFYzAKiGDdPEH7o8wMWpqxur4uYz8VEUjsAKvZ2OLeHKIiR162XGP8mQRq+Pvpo3A9fit8J2XsLwwfh52F8ZP4roBXLWM/FrDyCN6U+VQdoIuZoQFvSH7PT95vllbwEM1jPxSZiSl4s0xhVcLx/cIDYM7lK+5E9nYhUJzIT/+ojA9U418U2ZkJoGAkGU+zz7/hcf6+NbhXaG7eBzv+G+KflxvSu8XmhwpRkrT73MJBHdl4rr4DjeXEUbiVr370bHsc6yOZ8sIH0ggyLPOh7i0hokca/FJxpmSdO4tI7tEfNF4RijwlpcRVcQKvCAUpDEa/jGgaCT8h2NI7mnQQD8ejNQwM4xkWyTJuBGjYeswgv/TVneqKLx/jp8Syvm2Y5ewRoaiox1t0kExJ6HjuKkFgsviLO6ONZGjWHq0JXanmiBcvoMtEJ/HAX0LPAWXacd6mderwypjvbRtcNNxWLV+QCnWmMw0OyA8bGoU+cPQ2FqobrxhzM/eNxrvVJtVIcVWRUdoIhxt0MD3eMKE3oDoCA3tvdJanXmcFqrYrWqkVpp9qWa18FLN7bgGVwsLdVU2viD0oeaFvfanwvZ2oUEN59Aa/As8Qf4TjRK5TgAAAABJRU5ErkJggg=="></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>avmedia22@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABdUlEQVRIieXWT0sVURjH8c9NLN0UCm1UXOcyfAVFbqOXELSXlqJEvRchXcUlN0oL94r/gqg2uUhQadGNC7kxbHHvwM1mnOfMnWuLvvBsZp7f+R7OGR6G/41GQu84nuAx7mGq+/wIH/EWTXyva3OjWMIPXJRUC4vdTF9MYCsgvFx7mK4qndI5xlRpVl8xmSodxU4f0qy2MZIiflGDNKuFqHRc+Yd0gjk8wnFJbwtjEfGzkoU2dT66jLtYL8k8jYibBeFzvMJQTmYIL7s9edk3EfHngvByILtckP0UEbcLwheBbFGufbnxRk54OLK7RP66njzxSXCx6CnAaUS8G1wshZ2IeHUA4pVI0y18U9/kOsXN6A7LhkhKhYZHRgPvapCuS/vZALdx0If0g+CMzmMS7ytI9/05zytxB2sJ0qbOadVCA89xdoXwJ+ZVuNMIMzjMkX7pvhsos/jVIz3H/UFLM1Z7xK+vSwoPe8QPrlPcwIaKA+Kf8huFCR/2b10ExwAAAABJRU5ErkJggg=="></div>
+                    <div class="contact-info">
+                        <h1>Addres</h1>
+                        <h2>Nairobi,Kenya</h2>
+                        <h2>P.O BOX 038</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--end of contact section-->
+
+
+   <!--Footer section-->
+   <section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>A</span>V <span>M</span>edia</h1></div>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.instagram.com/av._media.ke/?next=%2F"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADwUlEQVRoge3ZTWxVRRQH8N+r1thgMBLjZyRGKomSmihV1KhbDAZsQIyAWzawkbhzrzvZuXShC8Sg9SN+RDcs/MbqomLRpBpjolAIjbgpEVpczH32dd5997575xXUvH8yyZuZM2fOf+bOzDnn0UcfffTxX0Kj5phRPIbbcB0uS7RjHifxM97HBC4k6uyIBrbjx2yS5Sw/YJt6C12IqzB+EQjE5T2s7CWJ5lZfivI1VpQZWbZ1DWEnxnL6juJj/Iq5solKMITV2Ih1Of3jeELCudmufYVm8HhdhV1gTDj48bxb6ypsaD/YM1iTamkHPIR9uBPDOBXNfUzNw3+f9lXZkm5vLsawkM0xJ5DZmjP/aCcFlxco3xTVj+LdCsZdj7twY1Y/jklhV2NstrjaV+JR7MeUQKrVpokKNoBXLV2NF7sYM4Cn8bnwyMUrOo/PsDOTbWJ3i8wCHsza90fjX6lKgnAjtSp5pkR+Lb7NMb5TmRDOAmE3duNlYXea2BeN+agOkcORkr0Fso9gtgKJZjmNhwv07o3kD3cSHOjUUQFr8Tauyek7g2+ycianf1U29vZUI1KJDOCgdhKTwidyrXDTjGa/N+O7SHYVDkj0q1KJ7MTdUds4Ngh+0vmW9vNZ2wa8FY0ZxY4UQ1KJ7Inqk9iFswVj5jKZ70t0VUIKkRuE1W3Fc4pJNDGXybbiASG2qYUUIiPR+D9Uux4/xJ+RLSN1jUkhclNUn7b0TJThXDamFTfXNSaFSOxS1w2bi3R2jRQix6P6MAYrjB/U7kn/XteYFCKTgl/UxNVCYNQtNlkaxs5rf2O6RgqRGXwZtb0gRHtlGMLzUdsXQkBVC6nvyEtRfUR4pYvIDOE17SFtrKsSUokcFPyoVowJCYMtlp6ZQSFEntAeKh/B6ymGFAVW3WABT+ErwWdqYh3eEd6J5hU7LD+1Myu4OrVvLHrj/U4LuzCb07cS92Qlj8RpYXd+SjWiiMi5qF50tX4iuCtVwtAj2ZhPC2SuiOp/dRIsInIiqt9SbJdpIWGxSwhnF3Jk5gXDd+B+5TuxusSmf1B0RuJJNuLZkokvCLfWAcEBHLHodvwmvBNVrtj4Xar1Cd6rPTTNyzguF7blzL++jqKGkBVvVXTSYsJgOZGXoJuSEEXmrcopCenLLueMSZR+Dd0ksd+Qb/iUkDL6RW+S2LcKZ+KOnP5DeDJxDiuEl/pf/bdCFTJvXgISh3pJoomG8IkduwgEplS8IetGdeuFeGKNkKzuxZ+hM8Kj+oHF1GsfffTRx/8UfwOP0qdyIhldLAAAAABJRU5ErkJggg=="></a>
+            </div>
+            <div class="social-item">
+                <a href="https://twitter.com/IvanRatemo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADIUlEQVRoge3ZX4hVVRTH8Y8zQU6l/RPLosiKwiQopKckQYrqQSiIIaGg3gxFIciC9CGKHlIk0JeiwDeVguilhtCXCCvoH4hREP3DwrJiHPszo87cHtYd5nQ8c+6/feYMdH+wuOfee/Ze68vZZ+2196avvvr6X2hB3QHghqYtwRiO4Qgm6wyqXS3CdnyNRoH9ilcEYJmuxJ1Ff9yaKtISPYhfFAPkbRwvYDDXx3XYg39we97BMvyFhysJP7QVU9qDyNpbWI1n8IEYdg28UeTkyeafE7inAohHuwAos5+xtMjRO5mbxvFQQohr8XdCiBNY2ez7ItybdfZ97uZJbE4EsjchxOcYxgbsw5+4L+tsdJaG+3FxDxCLxRNOBTKZ+/5U3uHxksbfYm2XIMMJIfL2UpHDD9to+KZIfZ3ouQoApvDsbA53ttnJOF4z87K10quJIc7ggTKHd3TY4RTew+O4rKTf3YlBxsogpnWoy85PN9s+j3W42kwdtzUxyGg7ILdIl+8nREr/LjHIsTKAbBW83rkpbj7Zl0UAA83PQVE6b8JBPCIKsvmoH1rdcMIM9Y/K55U6bU9R8AOZ608z19fgilbkNal0aMG7cxRIrzrc6oZLcFL9Q6fMTjp3kYX/PpFRvNiKtmaNaHMtP6j7SXEubLgT6kViOVl30HkbE4uojnQ+Xja/JsbdnUJktVKs7v6oGWIKN5cFet4sv6/CY02A3/Gx2JAozBhzoANiD6xjDeE39Q+nhqisb+wGYlob5wFEA7t6gSCG0UjNEN/gwl5BiN2TwzVBnMWaFBDTGsLrutvq7MWeTgmR1Wq8LRb/VUMcMAdHHotxv9hTqmLCHBETcuUawBaxVZka4qAYypUDrMNHFQA0RAVR6ZO4Ck/gq4oAzkjwYi/Abc0OT4nK91IsF2XKWqzo1UmJjopS6JMUnS0VC/rTqs9G0zaKbViYAiCvm8R5w0TFADtweRUAeS0RBzyfJQr+LN4XQ+iCqoJuNemswN24S5yeXt9GmzGRGL4Q6fSQWA5Uqk5nzyFxHrhMJIaFYiieEgDH8VPKAPvqq2b9C53t8lAzqxI/AAAAAElFTkSuQmCC"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://github.com/ivanratemo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADuUlEQVRoge2Zz0tVQRTHP/pelr/65cIUsh+btJ8SUbsWFeWiUFv4V1gUSlj/Q2BoGoFQUBBRSUWlFkEtWoSgSYW1MlODatUPUp/yWsxc3tzz7nv3Pt+8p4v7hYE798ycOd85M2fmngshQoQIEWIZUJBD3VGgGijV9b/ANLCYwzGtIAI0AN3AGDAHxEWZ07Iu4ITus2JQBrQDUyQb7lemgDYSXls2NANfSW/svC7p2kwCjXm2HYAi4JqHQfPAc6AVqAcqUfuwQD/XA2eAF0DMo3+P1p0XlGljTQNiQC9QlYGeKtRkSEJD5GGpFZFMYgTYkYXOWuCd0DlIjj0jl9N97MxeGfBA6L5qQa8nmkkmUajLTpYWSqO6r6OnX4xhPQCU4Y5OIyQ8cVq/mwE6gDVGvwiwQReTaDFwUfeJA03GOOYy+wKU2CTSjntjm3viEu5ZnAD6gM+oU9x5v6Df9ek2Zp8OQ18d7gBw3haJCO7DrlfIJZGllA6h87ohm8TSDaDBUDpPcohtsUCkReisxu2VY35GFgYgctJ4fgV8E/JDAXT44aCozwCvjfopC2MwRmJmWoWsBrX2s/XIArBZ6D5ryEezJRHFfYutF/ILFkg4pV3o3m/IZvHZJ35LaxPuE3ZGyGt9+meCOlGfNp5Xa1tSwo/IWuM5BvwU8kqf/plAGvpDj+llSxKCbHYHjptN/Mmgvx9+BRgvJfyImMqLgHVC/jHoQAEgda3Hvawl0YwQwb3Z9wr5AextdhlI6g3ZP7Lc7IvAJ6N+WMiHgWc+OoLgCckh1hxrHAtJiy4SM/PQQ16BukMt1RPjwEYPvY+NNp3ZkgA4biiMoQ5BLzK3cV8S/coicCsFia24D9qjNohEcF/hL6O+wT8Ab4EtRtvtqNvqTVKng27oNtvSjNlp9Jkks+iaFm3CmD2awARqWckYLz/CzNJEeuzDnXU5Z4WBRilqZhzlw6iPI8fgN6jlAMpbd1KQiKO8lQrFWrfTdgLLH1agZtI0qB+17F6SuPi9B76nIREHnqbQH0UFE7OtlVuvF3rEQHdRa/0RwTe6F5FS4J5o150rEqBO2kEx4CiwCyhHbfYKbWxQIrtJTgcNAKtySQTU7EkyMVT6xvmmCEKkBuVhmaAbII+54CJtuNfZMIQ7MMgyiUryeS3FbvLgCS80olI2Sz3VzeiUs40dFCWoA84vK5/KO+fIQYjNBoWobMcVVACYJdnwWVRyrxM4gsUTO5e/3iKo1FG5rv9GZWBW/K+3ECFChAgRGP8B+UoCycTdresAAAAASUVORK5CYII="></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.tiktok.com/@ivanratemo?_r=1&_d=e5gmf5i1cf92me&sec_uid=MS4wLjABAAAAa6rwOHfp5hBofIeNMqdUqLVkxo47MjSNARGWUiYqef0BHNAZbzL3yx1mytbLsPlu&share_author_id=6789887076931404805&sharer_language=en&source=h5_m&u_code=daj3mafk05hi09&timestamp=1703054600&user_id=6789887076931404805&sec_user_id=MS4wLjABAAAAa6rwOHfp5hBofIeNMqdUqLVkxo47MjSNARGWUiYqef0BHNAZbzL3yx1mytbLsPlu&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7312309163961894661&share_link_id=8d787980-6a00-49c4-872f-4b012236d85c&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9ElEQVR4nO2ZPUscURSGHwkiKeLHJjH+A3+DiBhts6mSdDb+BSPYilnEL2StksY0SZrtAiEhxe7WaYKN/yCQSnEdsQl65MIsrJeZnTubu+y5y7zwNss9c87D5dw5dxYKFSrUq14CTeAKkAH7CmgA5bwQ2wqKlxRX8uyEKHfZBaSpoFDJcN0FJFJQqGT40gVEAnGmBl2gaAeZtvL8GhaQ/WEBmQX+hQjyNCHXboggTxJyPQBqwwBiNAKsA61QQB5n5B0HVoAj4FYzSAl33WgGmbLyrIUKUrLymHnpbdwjQe9IFP/+E3huAd0MCsScOIfAYseLz56iJ1NA2v4T3wJrg2r2zylHa16QvPYKstXlOXahE1pBvmQ8JwiQVsrs9Br4BpwkNOy4RpBqQtz7jBiVIMtWzCuHmEcaQWasmK+hgoxaMb8dYh5aMdcaQJ7l3JG/1vqJ/4QQXyBLOXvknbV+TgtINSHuQ8raH8CYtXZHC0gr5T3yBvgOnMbD4Gp8ne2UGR7PtIBIPGP1omMPEOITxHgzJ8SGJwjxDWL8qcuHhbbMpeqjRwjpB4jxBXAALHTcBE0vzAN7wLlnCOkXiG2Xi1EQIKIBJFJQpDgc/5lqKChUfPz1VlZQqGT4BY6qKChWHOc2p52pK+mZKK7FeScKFSrEPd0Bxx7VAwDpFdUAAAAASUVORK5CYII="></a>
+            </div>
+        </div>
+        <p>Copyright © 2024 AV MEDIA | All rights reserved</p>
+    </div>
+   </section>
+   <!--end ofFooter section-->
+   <script src="./app.js"></script>
+</body>
+</html>
